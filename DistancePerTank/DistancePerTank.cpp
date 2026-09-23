@@ -10,6 +10,7 @@ int main()
 	const double highwayMPG = 28.9;
 	double distanceTown = tankCapacity * townMPG;
 	double distanceHighway = tankCapacity * highwayMPG;
+	
 	// Displays
 	cout << "Full tank of gas in town: " << distanceTown;
 	cout << " miles" << endl;
